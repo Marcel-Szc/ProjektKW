@@ -51,7 +51,7 @@ function ubrania(){
             article.appendChild(h2);
             article.appendChild(p);
 
-            document.getElementById("main").appendChild(article);
+            document.getElementById("mid").appendChild(article);
         }
 
 
