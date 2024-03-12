@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 33pt;
+    justify-content: center;
+    align-self: center ;
+    display: flex;
+}
+p{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 15pt;
+}
+.text{
+    width: 100vh;
+    display: flex;
+    
+    border: 2px solid black;
+    height: 98vh;
+    margin: 5px;
+}
