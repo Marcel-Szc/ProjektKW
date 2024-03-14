@@ -1,5 +1,10 @@
 body, html {
     width: 99.05vw;
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 #clock{
     font-size: 20pt;
