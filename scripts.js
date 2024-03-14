@@ -54,6 +54,7 @@ function ubrania(){
             document.getElementById("mid").appendChild(article);
         }
 }
+ubrania();
 function updateclock(){
     var now = new Date();
     var hours = now.getHours();
@@ -77,4 +78,3 @@ function updateclock(){
 
 setInterval(updateclock,1000)
 updateclock();
-ubrania();
