@@ -24,7 +24,7 @@ nav {
     text-align: center;
 }
 .main {
-    height: 2500px;
+    height: 150vh;
 }
 footer {
     background-color: black;
@@ -32,27 +32,27 @@ footer {
     height: 380px;
 }
 .mid {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     display: flex;
     overflow-x: hidden;
-    margin: 10%;
+    margin: 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     gap: 10%;
 }
 .hero {
-    height: 500px;
+    height: 50px;
 }
 .bluzKosz{
-    height: 500px;
+    height: 40px;
 }
 .kolekcja {
-    height: 500px;
+    height: 50px;
 }
 .accessories {
-    height: 500px;
+    height: 50px;
 }
 .midWrapper {
     display: flex;
@@ -115,5 +115,14 @@ b{
     transition-duration: 1s;
      font-size: larger;
      
+}
+article{
+   
+    
+
+    border-radius:20px;
+    border: 10px #5F9BD1 solid;
+    background-color: rgb(255, 255, 255);
+ 
 }
  
