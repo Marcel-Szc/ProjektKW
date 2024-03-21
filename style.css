@@ -36,11 +36,13 @@ footer {
     width: 100%;
     display: flex;
     overflow-x: hidden;
-    margin: 5%;
+    margin: 0%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     gap: 10%;
+    background-color: rgba(0, 0, 0, 0.226);
+    padding: 5%;
 }
 .hero {
     height: 50px;
@@ -72,11 +74,69 @@ footer {
     
      width: 90%;
 }
+.menu_1 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 170%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+     
+
+     width: 90%;
+}
+.menu_2 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 250%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+     width: 90%;
+}
+.menu_3 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 250%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+     width: 90%;
+}
+.menu_4 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 250%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+     width: 90%;
+}
+:hover.menu_1{
+background-color: grey;
+transition-duration: 0.7s;
+}
+:hover.menu_2{
+    background-color: grey;
+    transition-duration: 0.7s;
+    }
+    :hover.menu_3{
+        background-color: grey;
+        transition-duration: 0.7s;
+        }
+        :hover.menu_4{
+            background-color: grey;
+            transition-duration: 0.7s;
+            }
+
 .napis{
 display:  flex;
 text-align: center;
 align-content: center;
-text-decoration: none;
+
  margin: 2%;
  padding-left: 5%;
 }
