@@ -68,14 +68,25 @@ footer {
     
     
     
-    gap: 10%;
+    
+    
      width: 90%;
 }
 .napis{
 display:  flex;
 text-align: center;
-padding: 5%;
+align-content: center;
+text-decoration: none;
+ margin: 2%;
  padding-left: 5%;
+}
+:hover.SG{
+background-color: grey;
+}
+ 
+:hover#Strona_Glowna{
+    transition-duration: 1s;
+background-color:grey;
 }
 .navBottom {
    border-top: 1px solid lightgray; 
@@ -121,7 +132,7 @@ article{
     
 
     border-radius:20px;
-    border: 10px #5F9BD1 solid;
+    border: 10px orange solid;
     background-color: rgb(255, 255, 255);
  
 }
