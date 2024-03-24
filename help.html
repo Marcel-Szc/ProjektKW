@@ -1,6 +1,3 @@
-<!--
-    
--->
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -19,14 +16,28 @@
         <img src="LogoBlack.png" width="100px" height="100px">
        </div>
        <div class="menu">
-        <a href="index.html" class="menu_1"><div class="napis"> Strona Główna</div> </div></a>
+        <a href="index.html" class="menu_1"><div class="napis"> Strona Główna</div> </a>
         <a href="about.html" class="menu_2"><div class="napis">  O nas</div></a>
         <a href="help.html" class="menu_3"><div class="napis"> Pomoc</div></a>
-        <a href="komentarze.html" class="menu_4"><div class="napis"> Pisz z nami!</div></a>
        </div>
      </div>
     </nav>
-    <div class="hero"></div>
+    <div class="main_small">
+        <form>
+            <select id="wybierz">
+               <option value="Problem ze stroną">Problem ze stroną</option>
+               <option value="Problem z zamówieniem">Problem z zamówieniem</option>
+               <option value="Problem z zamówieniem">Zwrot produktu</option>
+            </select>
+            <input type="text" id="opis" placeholder="opisz problem...">
+            <input type="text" id="imie" placeholder="imie i nazwisko">
+            <input type="text" id="email" placeholder="email">
+            <button onclick="zgloszenie()">Wyślij</button>
+        </form>
+        <div class="listaZgloszen">
+
+        </div>
+    </div>
     <footer>
         <div class="FootLogo">
             <img src="LogoWhite.png" width="80px" height="80px">
