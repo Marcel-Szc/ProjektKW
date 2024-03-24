@@ -53,55 +53,26 @@ function ubrania(){
 
             document.getElementById("mid").appendChild(article);
         }
+
+
 }
+
+
 ubrania();
-function updateclock(){
-    var now = new Date();
-    var hours = now.getHours();
-    var minutes = now.getMinutes();
-    var seconds = now.getSeconds();
-
-    if(hours < 10){
-        hours = "0" + hours;
-    }else{
-        hours = hours;
-    }
-    
-    minutes = (minutes<10) ? "0" + minutes : minutes;
-    seconds = (seconds<10) ? "0" + seconds : seconds;
-
-    document.getElementById("hours").textContent = hours + ":";
-    document.getElementById("minutes").textContent = minutes + ":";
-    document.getElementById("seconds").textContent = seconds;
-
-}
-
 setInterval(updateclock,1000)
 updateclock();
 
-WCAG();
-    function small(){
-        document.getElementById("posts").style.fontSize = 1 + "rem";
-    }
-    function medium(){
+    function basic(){
         document.getElementById("posts").style.fontSize = 1.5 + "rem";
     }
     function big(){
-        document.getElementById("posts").style.fontSize = 2 + "rem";
+        document.getElementById("info").style.fontSize = 2 + "rem";
     }
     function white(){
-        document.getElementById("posts").style.backgroundColor = "white";
-        document.getElementById("posts").style.color = "black";
-    }
-    function black(){
-        document.getElementById("posts").style.backgroundColor = "rgb(80, 80, 80)";
+        document.getElementById("posts").style.backgroundColor = "black";
         document.getElementById("posts").style.color = "white";
     }
-    function yellow(){
-        document.getElementById("posts").style.backgroundColor = "yellow";
-        document.getElementById("posts").style.color = "black";
-    }
-    function cyan(){
-        document.getElementById("posts").style.backgroundColor = "cyan";
-        document.getElementById("posts").style.color = "black";
-    }
+
+function zgloszenie() {
+    alert("zgłoszenie przyjete, odezwiemy się do pana/pani w przeciągu 24h!");
+}
