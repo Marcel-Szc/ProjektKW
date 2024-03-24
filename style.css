@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body, html {
-    width: 99.05vw;
     padding: 0;
     margin: 0;
     font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-style: normal;
+  background-color: aliceblue;
 }
 #clock{
     font-size: 20pt;
@@ -19,12 +19,17 @@ nav {
     position: sticky;
     top:0;
 }
+.main_small {
+    height: 825px;
+}
 .navTop{
     height:25%;
     text-align: center;
+    color: white;
+    background-color: black;
 }
 .main {
-    height: 2500px;
+    height: 4400px;
 }
 footer {
     background-color: black;
@@ -32,36 +37,176 @@ footer {
     height: 380px;
 }
 .mid {
-    height: 100%;
-    width: 100%;
+    height: 570px;
     display: flex;
-    overflow-x: hidden;
+    overflow-x: scroll;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    background-color: rgba(0, 0, 0, 0.226);
+    padding: 5%;
 }
 .hero {
-    height: 500px;
+    height: 850px;
+    background-image: url(https://admor.co/media/wysiwyg/spring-sale-new-banner-dekstop-pl_2.webp);
+    background-position-x: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .bluzKosz{
-    height: 500px;
-}
-.kolekcja {
-    height: 500px;
-}
-.accessories {
-    height: 500px;
-}
-.midWrapper {
+    height: 850px;
+    width: 100%;
     display: flex;
-    height: 500px;
+}
+.bluzy {
+width: 50%;
+height: 850px;
+background-image: url(https://admor.co/media/wysiwyg/banner_categories_left-right-static-hoodies.webp);
+background-position-x: center;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.koszulki {
+    width: 50%;
+    height: 850px;
+    background-image: url(https://admor.co/media/wysiwyg/banner_categories_left-right-static-tees_1.webp);
+    background-position-x: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .menu {
     color: black;
     border-left: 1px solid lightgray;
+    font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+     width: 90%;
+}
+.menu_1 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+
+     width: 90%;
+}
+.menu_2 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+     width: 90%;
+}
+.menu_3 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    
+    
+    
+    
+    
+     width: 90%;
+}
+.menu_1 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 170%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+     
+
+     width: 90%;
+}
+.menu_2 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 250%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+     width: 90%;
+}
+.menu_3 {
+    color: black;
+    border-left: 1px solid lightgray;
+    font-size: 250%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+
+     width: 90%;
+}
+.menu_4 {
+    color: black;
+    border-left: 1px solid lightgray;
+
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 250%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+     width: 90%;
+}
+:hover.menu_1{
+background-color: grey;
+transition-duration: 0.7s;
+}
+:hover.menu_2{
+    background-color: grey;
+    transition-duration: 0.7s;
+    }
+    :hover.menu_3{
+        background-color: grey;
+        transition-duration: 0.7s;
+        }
+        :hover.menu_4{
+            background-color: grey;
+            transition-duration: 0.7s;
+            }
+
+.napis{
+display:  flex;
+text-align: center;
+align-content: center;
+text-decoration: none;
+ margin: 2%;
+ padding-left: 5%;
+}
+:hover.SG{
+background-color: grey;
+}
+:hover#Strona_Glowna{
+    transition-duration: 1s;
+background-color:grey;
 }
 .navBottom {
    border-top: 1px solid lightgray; 
    border-bottom: 1px solid lightgray;
    display: flex; 
    height: 75%;
+   justify-content: space-around;
 }
 article img {
     height: 400px;
@@ -78,3 +223,160 @@ article img {
 b{
     font-size: 20px;
 }
+.znaczki{
+    
+        font-family: "Noto Sans Khojki", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+.info{
+    margin: 2%;
+    color: whitesmoke;
+}
+:hover.link_st{
+    color: aqua;
+    transition-duration: 1s;
+     font-size: larger;
+     
+}
+article{
+   
+    
+
+    border-radius:20px;
+    border: 10px orange solid;
+    background-color: rgb(255, 255, 255);
+ 
+}
+p{
+    margin: 3%;
+}
+h2{
+    margin-left: 3%;
+}
+#tryb_ciemny{
+    background-color: rgb(53, 54, 66);
+}
+.txt {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 550px;
+}
+.kolekcja {
+    background-image: url(https://admor.co/media/wysiwyg/bannerULTRAtypo_1.webp);
+    height: 850px;
+    background-size: 110%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.accessories {
+    background-image: url(https://admor.co/media/wysiwyg/banner3.webp);
+    height: 850px;
+    background-size: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.txt1 {
+    opacity: 0%;
+}
+ @media only screen and (max-width: 600px) {
+    .main {
+        height: 3600px;
+    }
+    .hero {
+        background-size: 120%;
+        height: 400px;
+    }
+    .bluzKosz {
+        height: 1200px;
+        flex-direction: column;
+    }
+    .bluzy, .koszulki {
+        width: 100%;
+    }
+    .kolekcja {
+        background-size: 300%;
+    }
+    .txt1 {
+        opacity: 100%;
+        Color: whitesmoke;
+        font-size: 50px;
+        margin-left: 60px;
+        margin-bottom: -14px;
+    }
+    .accessories {
+        background-size: 180%;
+        background-position-x: -350px;
+    }
+    .napis {
+        font-size: 34px;
+    }
+    .menu_2, .menu_3  {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin-bottom: 5px;
+       text-align: center;
+    }
+ }
+ @media only screen and (max-width: 451px) {
+    .main {
+        width: 365px;
+        height: 2920px;
+    }
+    nav {
+        width: 365px;
+    }
+    footer {
+        width: 365px;
+    }
+    .hero {
+        height: 270px;
+        background-size: 160%;
+    }
+    .bluzKosz {
+        height: 820px;
+    }
+    .bluzy {
+        height: 410px;
+    }
+    .koszulki {
+        height: 410px;
+    }
+    .kolekcja {
+        background-size: 400%;
+        height: 810px;
+    }
+    .accessories {
+        background-position-x: -260px;
+        background-size: 200%;
+        height: 500px;
+    }
+      .logo {
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+        margin: 0px;
+      }
+      .logo img {
+        width: 0px;
+        height: 0px;
+      }
+      .napis {
+        font-size: 26px;
+      }
+      .menu {
+        width: 100%;
+        height: 100%;
+      }
+      .txt {
+        margin-top: 200px;
+      }
+      .txt1 {
+        text-align: center;
+        margin-left: 8px;
+      }
+ }
