@@ -57,4 +57,35 @@ function ubrania(){
 
 }
 
+
 ubrania();
+=======
+setInterval(updateclock,1000)
+updateclock();
+
+WCAG();
+    function small(){
+        document.getElementById("posts").style.fontSize = 1 + "rem";
+    }
+    function medium(){
+        document.getElementById("posts").style.fontSize = 1.5 + "rem";
+    }
+    function big(){
+        document.getElementById("posts").style.fontSize = 2 + "rem";
+    }
+    function white(){
+        document.getElementById("posts").style.backgroundColor = "white";
+        document.getElementById("posts").style.color = "black";
+    }
+    function black(){
+        document.getElementById("posts").style.backgroundColor = "rgb(80, 80, 80)";
+        document.getElementById("posts").style.color = "white";
+    }
+    function yellow(){
+        document.getElementById("posts").style.backgroundColor = "yellow";
+        document.getElementById("posts").style.color = "black";
+    }
+    function cyan(){
+        document.getElementById("posts").style.backgroundColor = "cyan";
+        document.getElementById("posts").style.color = "black";
+    }
