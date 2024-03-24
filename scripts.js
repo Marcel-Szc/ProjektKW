@@ -56,13 +56,30 @@ function ubrania(){
 
 
 }
+function updateclock(){
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+
+    if(hours < 10){
+        hours = "0" + hours;
+    }else{
+        hours = hours;
+    }
+    
+    minutes = (minutes<10) ? "0" + minutes : minutes;
+    seconds = (seconds<10) ? "0" + seconds : seconds;
+
+
+}
 
 
 ubrania();
 setInterval(updateclock,1000)
 updateclock();
 
-    function basic(){
+  function basic(){
         document.getElementById("posts").style.fontSize = 1.5 + "rem";
     }
     function big(){
