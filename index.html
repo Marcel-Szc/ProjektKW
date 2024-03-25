@@ -6,35 +6,59 @@
     <link rel="stylesheet" href="style.css">
     <title>Sigma Store</title>
 </head>
-<body>
-    <nav>
+<body id="body">
+    <nav id="nav">
+    <div id="navWrapper">
      <div class="navTop">
+        <button id="light" onclick="lightmode()">L</button>
+        <button id="dark"  onclick="darkmode()">D</button>
         Wyprzedaż na wiosnę do -20%!
      </div>
-     <div class="navBottom">
+     <div class="navBottom" id="navBottom">
        <div class="logo">
-        <img src="LogoBlack.png" width="100px" height="100px">
+        <img src="LogoBlack.png" width="96px" height="96px">
        </div>
-       <div class="menu">
+       <div class="menu" id="menu">
 
-        <a href="index.html" class="menu_1"><div class="napis"> Strona Główna</div></a>
-        <a href="about.html" class="menu_2"><div class="napis">  O nas</div></a>
-        <a href="help.html" class="menu_3"><div class="napis"> Pomoc</div></a>
+        <a href="index.html" class="menu_1" id="menu1"><div id="napis">Strona Główna</div></a>
+        <a href="about.html" class="menu_2" id="menu2"><div id="napis">O nas</div></a>
+        <a href="help.html" class="menu_3" id="menu3"><div id="napis">Pomoc</div></a>
+        <button class="menu_4" onclick="ziobro()" id="ziobro">
+            <p>W</p>
+            <p>C</p>
+            <p>A</p>
+            <p>G</p>
+        </button>
        </div>
      </div>
+    </div>
     </nav>
-    <div class="main">
+    <div class="main" id="main">
+    <div id="menuWCAG">
+        <div id="WCAGwrapper">
+            <div id="wrocWrapper">
+               <div id="buttonsWrapper">
+                <button id="small">A</button>
+                <button id="APlus">A+</button>
+                <button id="APLusPlus">A++</button>
+                <button id="yellow"></button>
+                <button id="cyan"></button>
+               </div>
+               <button id="wroc" onclick="wroc()">Wróć</button>
+            </div>
+        </div>
+    </div>
         <div class="hero"></div>
         <div class="bluzKosz">
             <div class="bluzy">
                 <div class="txt">
                      BLUZY
-                </div>
+                </div> 
             </div>
             <div class="koszulki">
                 <div class="txt">
                     KOSZULKI
-                </div>
+                </div> 
             </div>
         </div>
           <div class="mid" id="mid">
@@ -49,9 +73,11 @@
         <div class="FootLogo">
             <img src="LogoWhite.png" width="80px" height="80px">
         </div>
+        <div class="English">
+            <div class="plang">Język:</div><a href="englishindex.html" class="language">English</a>
+        </div>
         <div class="newsletter">
         </div>
-        <button onclick="big()">big</button>
         <div class="info">Zaprogramowane przez: <a class="link_st" href="https://github.com/Marcel-Szc">Marcela Szczerka</a>, <a class="link_st"href="https://github.com/Bialy33">Stanisława Skowrońskiego</a>, <a class="link_st"  href="https://github.com/Dooju">Igora Kubackiego</a>, <a class="link_st" href="https://github.com/JakubFeliernix">Jakuba Wiere</a> i <a class="link_st" href="https://github.com/sokol1214">Kamila Sokołowskiego</a>
         </div>
     </footer>

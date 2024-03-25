@@ -29,18 +29,17 @@ updateclock();
         document.getElementById("posts").style.color = "white";
     }
 
-function zgloszenie() {
-    alert("zgłoszenie przyjete, odezwiemy się do pana/pani w przeciągu 24h!");
-}
+    function zgloszenie() {
+        alert("Report accepted, expect a reply within the next 24 hours!");
+    }
 function ziobro() {
     //menuWCAG
      document.getElementById("menuWCAG").style.position = "absolute";
-     document.getElementById("menuWCAG").style.height = 100 + "%";
+     document.getElementById("menuWCAG").style.height = 4150 + "px";
      document.getElementById("menuWCAG").style.width = 100 + "%";
     //WCAGwrapper
      document.getElementById("WCAGwrapper").style.position = "sticky";
      document.getElementById("WCAGwrapper").style.top = 0;
-     document.getElementById("WCAGwrapper").style.bottom = 0;
      document.getElementById("WCAGwrapper").style.paddingTop = 15 + "px";
     //wrocWrapper
      document.getElementById("wrocWrapper").style.width = 90 + "vh";
@@ -78,7 +77,10 @@ function ziobro() {
     document.getElementById("cyan").style.transitionDelay = 1.5 + "s";
     document.getElementById("cyan").style.transitionDuration = 1 + "s";
 }
-function znaki() {
+function wroc() {
+    document.getElementById("menuWCAG").style.height = 0 + "px";
+    document.getElementById("menuWCAG").style.width = 0 + "px";
+    document.getElementById("wroc").style.opacity = 0 + "%";
     document.getElementById("cyan").style.opacity = 0 + "%";
     document.getElementById("yellow").style.opacity = 0 + "%";
     document.getElementById("APLusPlus").style.opacity = 0 + "%";
@@ -94,12 +96,6 @@ function znaki() {
     document.getElementById("APLusPlus").style.transitionDuration = 0 + "s";
     document.getElementById("APlus").style.transitionDuration = 0 + "s";
     document.getElementById("small").style.transitionDuration = 0 + "s";
-}
-function wroc() {
-    znaki();
-    document.getElementById("menuWCAG").style.height = 0 + "px";
-    document.getElementById("menuWCAG").style.width = 0 + "px";
-    document.getElementById("wroc").style.opacity = 0 + "%";
     document.getElementById("wroc").style.transitionDelay = 0 + "s";
     document.getElementById("wroc").style.transitionDuration = 0.5 + "s";
     document.getElementById("wrocWrapper").style.margin = "auto";
@@ -135,7 +131,6 @@ function lightmode() {
 
     }
 }
-znaki();
 function darkmode() { 
     document.getElementById("navBottom").style.backgroundColor = "rgb(90, 90, 90)";
     document.getElementById("ziobro").style.backgroundColor = "rgb(90, 90, 90)";
@@ -163,32 +158,23 @@ function darkmode() {
     }
 }
 function small() {
-    document.getElementById("paragraf").style.fontSize = 1 + "rem";
-    document.getElementById("main_small").style.height = 462 + "px";
+
 }
 function APlus() {
-    document.getElementById("h1").style.fontSize = 2.9 + "rem";
-    document.getElementById("paragraf").style.fontSize = 2.3 + "rem";
-    document.getElementById("main_small").style.height = 1150 + "px";
+
 }
 function APlusPlus() {
-    document.getElementById("h1").style.fontSize = 4.2 + "rem";
-    document.getElementById("paragraf").style.fontSize = 3.6 + "rem";
-    document.getElementById("main_small").style.height = 2200 + "px";
 
 }
 function cyan() {
-    if(document.getElementById("main_small")) {
-    document.getElementById("main_small").style.backgroundColor = "cyan";
-    }
+  //kolor tła
 }
 function yellow() {
-    if (document.getElementById("main_small")){ 
-    document.getElementById("main_small").style.color = "yellow";
-    }
+ //kolor tekstu
 }
+wroc()
 function ubrania(){
-  if(document.getElementById("mid")) {
+
     let ubrania = [
         {
             url: "https://admor.co/media/catalog/product/cache/7af54c596c9583b1b3d45b2de6b91dc3/h/o/horse-hoodie-black.webp",
@@ -243,6 +229,5 @@ function ubrania(){
 
             document.getElementById("mid").appendChild(article);
         }
-    }
 }
 ubrania();
