@@ -6,25 +6,51 @@
     <link rel="stylesheet" href="style.css">
     <title>Sigma Store</title>
 </head>
-<body>
-    <nav>
+<body id="body">
+    <nav id="nav">
+    <div id="navWrapper">
      <div class="navTop">
+        <button id="light" onclick="lightmode()">L</button>
+        <button id="dark"  onclick="darkmode()">D</button>
         Wyprzedaż na wiosnę do -20%!
      </div>
-     <div class="navBottom">
+     <div class="navBottom" id="navBottom">
        <div class="logo">
-        <img src="LogoBlack.png" width="100px" height="100px">
+        <img src="LogoBlack.png" width="96px" height="96px">
        </div>
-       <div class="menu">
-        <a href="index.html" class="menu_1"><div class="napis"> Strona Główna</div></a>
-        <a href="about.html" class="menu_2"><div class="napis">  O nas</div></a>
-        <a href="help.html" class="menu_3"><div class="napis"> Pomoc</div></a>
+       <div class="menu" id="menu">
+
+        <a href="index.html" class="menu_1" id="menu1"><div id="napis">Strona Główna</div></a>
+        <a href="about.html" class="menu_2" id="menu2"><div id="napis">O nas</div></a>
+        <a href="help.html" class="menu_3" id="menu3"><div id="napis">Pomoc</div></a>
+        <button class="menu_4" onclick="ziobro()" id="ziobro">
+            <p>W</p>
+            <p>C</p>
+            <p>A</p>
+            <p>G</p>
+        </button>
        </div>
      </div>
+    </div>
     </nav>
+    <div class="main_small" id="main_small">
+    <div id="menuWCAG">
+        <div id="WCAGwrapper">
+            <div id="wrocWrapper">
+               <div id="buttonsWrapper">
+                <button id="small" onclick="small()">A</button>
+                <button id="APlus" onclick="APlus()">A+</button>
+                <button id="APLusPlus" onclick="APlusPlus()">A++</button>
+                <button id="yellow" onclick="yellow()"></button>
+                <button id="cyan" onclick="cyan()"></button>
+               </div>
+               <button id="wroc" onclick="wroc()">Wróć</button>
+            </div>
+        </div>
+    </div>
       <div id="text">
 
-    <h1>About Us</h1>    
+    <h1 id="h1">About Us</h1>    
     <p id="paragraf">
         Sigma store to polski sklep z ubraniami stworzony z pasji do mody i troski o wysoką jakość. Naszą misją jest dostarczanie klientom wyjątkowych ubrań, które podkreślą ich styl i osobowość. <br> <br>
         
@@ -32,19 +58,20 @@
         
         Oferujemy szeroki wybór ubrań na każdą okazję, od casualowych stylizacji po eleganckie kreacje. Znajdziesz u nas również unikalne wzory, które wyróżnią Cię z tłumu i pozwolą Ci wyrazić swoją indywidualność. <br> <br>
         
-        
         Mamy wieloletnie doświadczenie w branży odzieżowej, co pozwoliło nam zdobyć cenne doświadczenie i wiedzę. Moda to nasza pasja, którą dzielimy się z klientami. Zapewniamy fachową obsługę i doradztwo w wyborze ubrań. Naszym priorytetem jest zadowolenie klienta, dlatego dbamy o to, aby każdy zakup był w pełni satysfakcjonujący. <br> <br>
         
         Zapraszamy do zapoznania się z naszą ofertą! W Sigma store każdy znajdzie coś dla siebie. Oferujemy ubrania dla kobiet, mężczyzn i dzieci, w różnych rozmiarach i fasonach. W naszym sklepie znajdziesz również szeroki wybór dodatków, które dopełnią każdą stylizację. <br> <br>
-        
         Odwiedź nasz sklep internetowy lub stacjonarny!</p>
     </div>
+ </div>
     <footer>
         <div class="FootLogo">
             <img src="LogoWhite.png" width="80px" height="80px">
         </div>
+        <div class="English">
+            <div class="plang">Język:</div><a href="englishabout.html" class="language">English</a>
+        </div>
         <div class="newsletter">
-
         </div>
         <div class="info">Zaprogramowane przez: <a class="link_st" href="https://github.com/Marcel-Szc">Marcela Szczerka</a>, <a class="link_st"href="https://github.com/Bialy33">Stanisława Skowrońskiego</a>, <a class="link_st"  href="https://github.com/Dooju">Igora Kubackiego</a>, <a class="link_st" href="https://github.com/JakubFeliernix">Jakuba Wiere</a> i <aclass="link_st" href="">Kamila Skokołowskiego</a>
         </div>

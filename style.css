@@ -11,6 +11,9 @@ body, html {
     font-size: 20pt;
     display: flex;
 }
+#text {
+    height: 441px;
+}
 nav {
     width: 100%;
     height: 120px;
@@ -25,7 +28,7 @@ nav {
     height: 96px;
 }
 .main_small {
-    height: 825px;
+    height: 462px;
 }
 .navTop{
     height:25%;
@@ -43,6 +46,9 @@ footer {
     background-color: black;
     color: white;
     height: 380px;
+}
+#paragraf {
+    height: 100%;
 }
 .mid {
     height: 570px;
@@ -265,8 +271,16 @@ h2{
 #cyan {
 background-color: cyan;
 }
+
 #yellow {
     background-color: yellow
+}
+#formularz {
+    height: 100%;
+    width: 100%;
+}
+.smaller {
+    height: 600px;
 }
  @media only screen and (max-width: 600px) {
     .main {
@@ -297,7 +311,7 @@ background-color: cyan;
         background-size: 180%;
         background-position-x: -350px;
     }
-    .napis {
+    #napis {
         font-size: 34px;
     }
     .menu_2, .menu_3  {
@@ -307,6 +321,25 @@ background-color: cyan;
        margin-bottom: 5px;
        text-align: center;
     }
+    #wroc {
+        margin-left: 0px;
+        position: absolute;
+        left: 0px;
+     }
+     #wrocWrapper {
+        width: 0px;
+     }
+     #WCAGwrapper {
+        width: 0px;
+     }
+     #ziobro{
+        height: 0px;
+        width: -2px;
+        opacity: 100%;
+      }
+     #ziobro p {
+        font-size: 0px;
+      }
  }
  #menuWCAG {
     height: 0px;
@@ -327,23 +360,23 @@ background-color: cyan;
     font-size: 0px;
     opacity: 0%;
  }
- @media only screen and (max-width: 451px) {
+ @media only screen and (max-width: 397px) {
     .main {
-        width: 365px;
-        height: 2920px;
+        width: 320px;
+        height: 2730px;
     }
     nav {
-        width: 365px;
+        width: 320px;
     }
     footer {
-        width: 365px;
+        width: 320px;
     }
     .hero {
         height: 270px;
         background-size: 160%;
     }
     .bluzKosz {
-        height: 820px;
+        height: 740px;
     }
     .bluzy {
         height: 410px;
@@ -353,13 +386,27 @@ background-color: cyan;
     }
     .kolekcja {
         background-size: 400%;
-        height: 810px;
+        height: 740px;
     }
     .accessories {
         background-position-x: -260px;
         background-size: 200%;
         height: 500px;
     }
+    .main_small {
+        height: 850px;
+    }
+    #wroc {
+        margin-left: 0px;
+        position: absolute;
+        left: 0px;
+     }
+     #wrocWrapper {
+        width: 0px;
+     }
+     #WCAGwrapper {
+        width: 0px;
+     }
       .logo {
         width: 0px;
         height: 0px;
@@ -370,7 +417,7 @@ background-color: cyan;
         width: 0px;
         height: 0px;
       }
-      .napis {
+      #napis {
         font-size: 26px;
       }
       .menu {
@@ -384,4 +431,22 @@ background-color: cyan;
         text-align: center;
         margin-left: 8px;
       }
+      #ziobro{
+        height: 0px;
+        width: -2px;
+        opacity: 100%;
+      }
+      #ziobro p {
+        font-size: 0px;
+      }
  }
+ a{
+    color: white;
+}
+.language{
+    font-size: 30px;
+}
+.plang{
+    font-size: 30px;
+    text-decoration: none;
+}
