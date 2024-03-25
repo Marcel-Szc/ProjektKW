@@ -93,3 +93,100 @@ updateclock();
 function zgloszenie() {
     alert("zgłoszenie przyjete, odezwiemy się do pana/pani w przeciągu 24h!");
 }
+function ziobro() {
+    //menuWCAG
+     document.getElementById("menuWCAG").style.position = "absolute";
+     document.getElementById("menuWCAG").style.height = 4150 + "px";
+     document.getElementById("menuWCAG").style.width = 100 + "%";
+    //WCAGwrapper
+     document.getElementById("WCAGwrapper").style.position = "sticky";
+     document.getElementById("WCAGwrapper").style.top = 0;
+     document.getElementById("WCAGwrapper").style.paddingTop = 15 + "px";
+    //wrocWrapper
+     document.getElementById("wrocWrapper").style.width = 90 + "vh";
+     document.getElementById("wrocWrapper").style.height = 85 + "vh";
+     document.getElementById("wrocWrapper").style.backgroundColor= "rgb(197, 197, 197)";
+     document.getElementById("wrocWrapper").style.border = 1 + "px solid rgb(119, 119, 119)";
+     document.getElementById("wrocWrapper").style.borderRadius = 8 + "%";
+     document.getElementById("wrocWrapper").style.margin = "auto";
+    //wroc
+     document.getElementById("wroc").style.height = 50 + "px";
+     document.getElementById("wroc").style.width = 100 + "px";
+     document.getElementById("wroc").style.opacity = 100 + "%";
+     document.getElementById("wroc").style.fontSize = 24 + "px";
+     document.getElementById("wroc").style.MarginLeft = 800 + "px";
+     document.getElementById("wroc").style.MarginTop = 400 + "px";
+    //opcje w WCAG
+    document.getElementById("cyan").style.opacity = 100 + "%";
+    document.getElementById("yellow").style.opacity = 100+ "%";
+    document.getElementById("A++").style.opacity = 100 + "%";
+    document.getElementById("A+").style.opacity = 100 + "%";
+    document.getElementById("small").style.opacity = 100 + "%";
+    //dl. animacji 
+    document.getElementById("wrocWrapper").style.transitionDuration = 2 + "s";
+    document.getElementById("WCAGwrapper").style.transitionDuration = 2 + "s";
+    document.getElementById("wroc").style.transitionDelay = 1.5 + "s";
+    document.getElementById("wroc").style.transitionDuration = 1 + "s";
+    document.getElementById("small").style.transitionDelay = 1.5 + "s";
+    document.getElementById("small").style.transitionDuration = 1 + "s"
+    document.getElementById("A+").style.transitionDelay = 1.5 + "s";
+    document.getElementById("A+").style.transitionDuration = 1 + "s";
+    document.getElementById("A++").style.transitionDelay = 1.5 + "s";
+    document.getElementById("A++").style.transitionDuration = 1 + "s";
+    document.getElementById("yellow").style.transitionDelay = 1.5 + "s";
+    document.getElementById("yellow").style.transitionDuration = 1 + "s";
+    document.getElementById("cyan").style.transitionDelay = 1.5 + "s";
+    document.getElementById("cyan").style.transitionDuration = 1 + "s";
+}
+function wroc() {
+    document.getElementById("menuWCAG").style.height = 0 + "px";
+    document.getElementById("menuWCAG").style.width = 0 + "px";
+    document.getElementById("wroc").style.opacity = 0 + "%";
+    document.getElementById("cyan").style.opacity = 0 + "%";
+    document.getElementById("yellow").style.opacity = 0 + "%";
+    document.getElementById("A++").style.opacity = 0 + "%";
+    document.getElementById("A+").style.opacity = 0 + "%";
+    document.getElementById("small").style.opacity = 0 + "%";
+    document.getElementById("cyan").style.transitionDelay = 0 + "s";
+    document.getElementById("yellow").style.transitionDelay = 0 + "s";
+    document.getElementById("A++").style.transitionDelay = 0 + "s";
+    document.getElementById("A+").style.transitionDelay = 0 + "s";
+    document.getElementById("small").style.transitionDelay = 0 + "s";
+    document.getElementById("cyan").style.transitionDuration = 0.5 + "s";
+    document.getElementById("yellow").style.transitionDuration = 0.5 + "s";
+    document.getElementById("A++").style.transitionDuration = 0.5 + "s";
+    document.getElementById("A+").style.transitionDuration = 0.5 + "s";
+    document.getElementById("small").style.transitionDuration = 0.5 + "s";
+    document.getElementById("wroc").style.transitionDelay = 0 + "s";
+    document.getElementById("wroc").style.transitionDuration = 0.5 + "s";
+    document.getElementById("wrocWrapper").style.margin = "auto";
+    document.getElementById("wrocWrapper").style.transitionDuration = 0.5 + "s";
+
+    document.getElementById("wrocWrapper").style.width = 0 + "px";
+    document.getElementById("wrocWrapper").style.height = 0 + "px";
+
+}
+function lightmode() {
+
+}
+function darkmode() { 
+    document.getElementById("paragraf").style.color = "rgb(180, 180, 180)";
+    document.getElementById("menu").style.backgroundColor = "rgb(90, 90, 90)";
+    document.getElementById("text").style.backgroundColor = "rgb(50, 50, 50)";
+}
+function small() {
+
+}
+function APlus() {
+
+}
+function APlusPlus() {
+
+}
+function cyan() {
+
+}
+function yellow() {
+
+}
+ziobro()

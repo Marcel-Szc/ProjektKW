@@ -19,6 +19,11 @@ nav {
     position: sticky;
     top:0;
 }
+.navWrapper {
+    position: absolute;
+    width: 100%;
+    height: 96px;
+}
 .main_small {
     height: 825px;
 }
@@ -28,8 +33,11 @@ nav {
     color: white;
     background-color: black;
 }
+#buttonsWrapper {
+   display: flex;
+}
 .main {
-    height: 4400px;
+    height: 4150px;
 }
 footer {
     background-color: black;
@@ -87,48 +95,12 @@ background-repeat: no-repeat;
 .menu_1 {
     color: black;
     border-left: 1px solid lightgray;
-    font-size: 200%;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    text-decoration: none;
-
-     width: 90%;
-}
-.menu_2 {
-    color: black;
-    border-left: 1px solid lightgray;
-    font-size: 200%;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    text-decoration: none;
-     width: 90%;
-}
-.menu_3 {
-    color: black;
-    border-left: 1px solid lightgray;
-    font-size: 200%;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    text-decoration: none;
-    
-    
-    
-    
-    
-     width: 90%;
-}
-.menu_1 {
-    color: black;
-    border-left: 1px solid lightgray;
     font-size: 170%;
     display: flex;
     flex-direction: row;
     text-align: center;
-     
-
+    height: 96px;
+text-decoration: none;
      width: 90%;
 }
 .menu_2 {
@@ -138,7 +110,8 @@ background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     text-align: center;
-    
+    height: 96px;
+    text-decoration: none;
      width: 90%;
 }
 .menu_3 {
@@ -147,27 +120,26 @@ background-repeat: no-repeat;
     font-size: 250%;
     display: flex;
     flex-direction: row;
+    text-decoration: none;
     text-align: center;
     
-
+height: 96px;
      width: 90%;
 }
 .menu_4 {
     color: black;
+    border: 0px;
     border-left: 1px solid lightgray;
-
-    font-size: 200%;
+    font-size: 16px;
     display: flex;
     flex-direction: row;
     text-align: center;
     text-decoration: none;
-
-    font-size: 250%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
-    
-     width: 90%;
+    width: 8%;
+    height: 96px;
 }
 :hover.menu_1{
 background-color: grey;
@@ -186,7 +158,7 @@ transition-duration: 0.7s;
             transition-duration: 0.7s;
             }
 
-.napis{
+#napis{
 display:  flex;
 text-align: center;
 align-content: center;
@@ -224,12 +196,9 @@ b{
     font-size: 20px;
 }
 .znaczki{
-    
         font-family: "Noto Sans Khojki", sans-serif;
         font-weight: 400;
-        font-style: normal;
-    
-      
+        font-style: normal; 
 }
 .info{
     margin: 2%;
@@ -239,16 +208,11 @@ b{
     color: aqua;
     transition-duration: 1s;
      font-size: larger;
-     
 }
 article{
-   
-    
-
     border-radius:20px;
     border: 10px orange solid;
     background-color: rgb(255, 255, 255);
- 
 }
 p{
     margin: 3%;
@@ -281,6 +245,28 @@ h2{
 }
 .txt1 {
     opacity: 0%;
+}
+#napis {
+    color: black;
+}
+#wroc {
+    background-color: rgb(160, 160, 160);
+    border: 1px black solid;
+    border-radius:50px;
+    position: absolute;
+    top: 760px;
+    left: 1220px;
+}
+:hover#wroc {
+    background-color: black;
+    color: white;
+    transition-duration: 2s;
+}
+#cyan {
+background-color: cyan;
+}
+#yellow {
+    background-color: yellow
 }
  @media only screen and (max-width: 600px) {
     .main {
@@ -321,6 +307,25 @@ h2{
        margin-bottom: 5px;
        text-align: center;
     }
+ }
+ #menuWCAG {
+    height: 0px;
+    width: 0px;
+    padding: 0;
+    margin: 0;
+ }
+ #WCAGwrapper {
+    height: 0px;
+    padding: 0;
+    margin: 0;
+ }
+ #wroc {
+    height: 0px;
+    width: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 0px;
+    opacity: 0%;
  }
  @media only screen and (max-width: 451px) {
     .main {
