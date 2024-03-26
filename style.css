@@ -16,7 +16,7 @@ body, html {
 }
 nav {
     width: 100%;
-    height: 120px;
+    height: 119px;
     color: black;
     background-color: white;
     position: sticky;
@@ -29,12 +29,17 @@ nav {
 }
 .main_small {
     height: 462px;
+    background-color: whitesmoke;
 }
 .navTop{
     height:25%;
     text-align: center;
     color: white;
     background-color: black;
+}
+#h1 {
+    font-Size: 1rem;
+    margin-top: 0px;
 }
 #buttonsWrapper {
    display: flex;
@@ -281,6 +286,21 @@ background-color: cyan;
 }
 .smaller {
     height: 600px;
+}
+#light {
+    background-color: rgb(199, 199, 199);
+    height: 18px;
+    width: 18px;
+    border-style: solid;
+    float: left;
+}
+#dark {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    height: 18px;
+    width: 18px;
+    border-style: solid;
+    float: left;
 }
  @media only screen and (max-width: 600px) {
     .main {
