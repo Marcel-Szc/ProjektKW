@@ -17,10 +17,6 @@ function updateclock(){
 }
 setInterval(updateclock,1000)
 updateclock();
-
-  function basic(){
-        document.getElementById("posts").style.fontSize = 1.5 + "rem";
-    }
     function big(){
         document.getElementById("info").style.fontSize = 2 + "rem";
     }
@@ -31,6 +27,9 @@ updateclock();
 
 function zgloszenie() {
     alert("zgłoszenie przyjete, odezwiemy się do pana/pani w przeciągu 24h!");
+}
+function zgloszenieEng() {
+    alert("Report accepted, expect a reply within the next 24 hours!");
 }
 function ziobro() {
     //menuWCAG
@@ -125,9 +124,9 @@ function lightmode() {
         document.getElementById("mid").style.padding = "rgba(0, 0, 0, 0.226)";
     }
     if(document.getElementById("text")) {
-    document.getElementById("text").style.backgroundColor = "white";
-    document.getElementById("main_small").style.backgroundColor = "white";
-    document.getElementById("h1").style.backgroundColor = "white";
+    document.getElementById("text").style.backgroundColor = "whitesmoke";
+    document.getElementById("main_small").style.backgroundColor = "whitesmoke";
+    document.getElementById("h1").style.backgroundColor = "whitesmoke";
     document.getElementById("h1").style.color = "black";
     document.getElementById("paragraf").style.color = "black";
     }
@@ -138,12 +137,15 @@ function lightmode() {
 znaki();
 function darkmode() { 
     document.getElementById("navBottom").style.backgroundColor = "rgb(90, 90, 90)";
+    document.getElementById("navBottom").style.borderTopColor = "rgb(50, 50, 50)";
+    document.getElementById("navBottom").style.borderBottomColor = "rgb(50, 50, 50)";
     document.getElementById("ziobro").style.backgroundColor = "rgb(90, 90, 90)";
     document.getElementById("menu").style.backgroundColor = "rgb(90, 90, 90)";
     document.getElementById("menu").style.borderColor = "rgb(50, 50, 50)";
     document.getElementById("menu1").style.borderColor = "rgb(50, 50, 50)";
     document.getElementById("menu2").style.borderColor = "rgb(50, 50, 50)";
     document.getElementById("menu3").style.borderColor = "rgb(50, 50, 50)";
+    document.getElementById("ziobro").style.borderColor = "rgb(50, 50, 50)";
     if(document.getElementById("formularz")){
         document.getElementById("formularz").style.backgroundColor = "rgb(50, 50, 50)" ;
     }
@@ -163,6 +165,7 @@ function darkmode() {
     }
 }
 function small() {
+    document.getElementById("h1").style.fontSize = 34  + "px";
     document.getElementById("paragraf").style.fontSize = 1 + "rem";
     document.getElementById("main_small").style.height = 462 + "px";
 }
