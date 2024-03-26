@@ -13,6 +13,13 @@ function updateclock(){
     minutes = (minutes<10) ? "0" + minutes : minutes;
     seconds = (seconds<10) ? "0" + seconds : seconds;
 
+    var div = document.createElement(div);
+    div.id = "clock";
+     
+    document.getElementById("newsletter").appendChild(div);
+
+    document.getElementById("clock").textContent = hours + ":" + minutes + ":" + seconds;
+
 
 }
 setInterval(updateclock,1000)
