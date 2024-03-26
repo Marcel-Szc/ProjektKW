@@ -101,7 +101,7 @@ background-repeat: no-repeat;
 .menu_1 {
     color: black;
     border-left: 1px solid lightgray;
-    font-size: 170%;
+    font-size: 250%;
     display: flex;
     flex-direction: row;
     text-align: center;
