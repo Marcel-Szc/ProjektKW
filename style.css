@@ -470,3 +470,48 @@ background-color: cyan;
     font-size: 30px;
     text-decoration: none;
 }
+.English{
+    margin: 2%;
+    padding: 2%;
+    margin-left: 2%;
+    font-size: large;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+}
+:hover.language{
+    transition-duration: 1s;
+    color:aqua;
+    font-size: 230%   ;
+    
+}
+#h1{
+    margin: 2%;
+    padding: 1%;
+}
+.buttonsWrapper{
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.prob{
+    margin: 2%;
+    gap: 30%;
+    padding: 5%;
+    background-color: grey;
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#wybierz{
+    display: flex;
+    text-align: center;
+}
+ .wyro{
+    height: 500vh;
+ }
