@@ -1,0 +1,54 @@
+* {
+    font-family: Georgia;
+    text-align: center;
+}
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+span {
+    color: maroon;
+    font-size: 170%;
+}
+table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    outline: 1px solid maroon;
+}
+td {
+    text-align: center;
+}
+.hero {
+    display: flex;
+}
+.middle {
+    width: 60%;
+    height: 500px;
+    background-color: mistyrose;
+}
+.side {
+    width: 20%;
+    height: 500px;
+    background-color: #EF9A9A;
+}
+.info {
+    padding: 50px;
+    background-color: mistyrose;
+}
+.info ul li {
+    text-align: left;
+}
+footer, header {
+    background-color: #BA6B6C;
+    padding: 7px;
+}
+ul {
+    list-style: upper-roman;
+}
+img {
+    height: 120px;
+    margin: 7px;
+    box-shadow: 7px 7px 7px 0 DimGray;
+}
